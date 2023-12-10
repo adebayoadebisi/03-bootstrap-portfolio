@@ -1,3 +1,10 @@
+:root {
+    --text-colors: #213159;
+    --highlight-colors: #f04b4c;
+    --background-color: #e7e7e7;
+    --hero-color: #3d6098;
+}
+
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
     font-family: 'Fjalla One', sans-serif;
@@ -28,7 +35,7 @@ header.masthead {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 0px;
-    background-color: steelblue;
+    background-color: var(--hero-color);
 }
 
 header.masthead .image-container {
@@ -37,7 +44,7 @@ header.masthead .image-container {
     margin-left: auto;
 }
 .img-fluid {
-    border-bottom: solid pink;
+    border-bottom: solid var(--highlight-colors);
     border-bottom-right-radius: 50%;
     border-width: 5px;
 }
@@ -57,4 +64,18 @@ header.masthead .header-content h2 {
 
 header.masthead .header-content p {
     font-size: 28px;
+}
+
+/* About Me */
+.aboutMe {
+    padding-top: 30px;
+}
+
+.aboutMe .textBorder {
+border-left: 5px solid var(--text-colors);
+}
+
+/* My Work */
+.myWork {
+    padding-top: 30px;
 }
