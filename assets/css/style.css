@@ -9,7 +9,7 @@ body {
 /* Navigation Bar */
 
 .customNav {
-    position: fixed;
+    position: relative;
     width: 100%;
 }
 .navbar-nav {
@@ -21,4 +21,40 @@ body {
     margin: 0px 15px;
 }
 
+/* Hero Section */
 
+header.masthead {
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background-color: steelblue;
+}
+
+header.masthead .image-container {
+    max-width: 359px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img-fluid {
+    border-bottom: solid pink;
+    border-bottom-right-radius: 50%;
+    border-width: 5px;
+}
+
+header.masthead .header-content {
+    max-width: 550px;
+    text-align: center;
+}
+
+header.masthead .header-content h1 {
+    font-size: 60px;
+}
+
+header.masthead .header-content h2 {
+    font-size: 45px;
+}
+
+header.masthead .header-content p {
+    font-size: 28px;
+}
