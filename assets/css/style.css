@@ -7,10 +7,12 @@
 
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
 }
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 
 /* Navigation Bar */
@@ -23,6 +25,7 @@ body {
 #navName {
     color: var(--text-colors);
     font-size: 35px;
+    font-weight: 600;
     background: var(--highlight-colors);
     padding-right: 10px;
     padding-left: 25px;
@@ -41,7 +44,13 @@ body {
 
 .nav-item {
     margin: 0px 15px;
+    font-weight: 600;
 }
+
+/* .nav-item a:hover
+.nav-item a:focus {
+color: #f04b4c;
+} */
 
 /* Hero Section */
 
@@ -49,7 +58,7 @@ header.masthead {
     width: 100%;
     padding-top: 30px;
     padding-bottom: 0px;
-    background-color: var(--hero-color);
+    background-color: var(--text-colors);
 }
 
 header.masthead .image-container {
@@ -69,17 +78,21 @@ header.masthead .header-content {
 }
 
 header.masthead .header-content h1 {
-    font-size: 60px;
+    font-size: 55px;
 }
 
 header.masthead .header-content h2 {
-    font-size: 45px;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 header.masthead .header-content p {
-    font-size: 28px;
+    font-size: 25px;
 }
 
+header.masthead .header-content {
+    color: var(--background-color);
+}
 /* About Me */
 .aboutMe {
     padding-top: 30px;
@@ -104,7 +117,6 @@ border-left: 5px solid var(--text-colors);
 .myWork .workBorder .pBorder {
 padding: 1%;
 justify-content: space-around;
-height: 315px;
 margin-bottom: 20px;
 }
 
@@ -126,12 +138,13 @@ margin-bottom: 20px;
 /* Contact Section */
 
 .contact-section {
-    padding-top: 1rem;
+    padding-top: 30px;
+    padding-bottom: 30px;   
 }
 
-.contact-section .social {
-    margin-top: 5rem;
-}
+/* .contact-section .social {
+    margin-top: 1rem;
+} */
 
 .contact-section .social a {
     text-align: center;
@@ -141,13 +154,21 @@ margin-bottom: 20px;
     border-radius: 100%;
     line-height: 3rem;
     color: var(--background-color);
-} 
+}
+
+.contactIcons {
+    border-left: 5px solid var(--text-colors);
+}
 
 .contactRow {
 
 }
 
 .contactIcons {
+
+}
+
+.socialIcons {
 
 }
 
