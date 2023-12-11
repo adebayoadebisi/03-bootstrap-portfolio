@@ -116,7 +116,7 @@ border-left: 5px solid var(--text-colors);
 .myWork {
     padding-top: 30px;
     position: relative;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 .myWork .workBorder .pBorder img {
@@ -133,6 +133,7 @@ margin-bottom: 20px;
 .myCard {
     margin-bottom: 20px;
     border: 5px solid var(--highlight-colors);
+    background-color: #21252a;
 }
 
 .myCard:hover {
@@ -157,10 +158,6 @@ margin-bottom: 20px;
     padding-bottom: 30px;   
 }
 
-/* .contact-section .social {
-    margin-top: 1rem;
-} */
-
 .contact-section .social a {
     text-align: center;
     height: 4rem;
@@ -178,18 +175,6 @@ margin-bottom: 20px;
 
 .contactIcons {
     border-left: 5px solid var(--text-colors);
-}
-
-.contactRow {
-
-}
-
-.contactIcons {
-
-}
-
-.socialIcons {
-
 }
 
 /* Footer Section */
