@@ -2,7 +2,7 @@
     --text-colors: #213159;
     --highlight-colors: #f04b4c;
     --background-color: #e7e7e7;
-    --hero-color: #3d6098;
+    --hero-color: #21252a;
 }
 
 /* Text */
@@ -13,6 +13,14 @@ h1, h2, h3 , h4, h5, h6 {
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+}
+
+#aboutMe h2,
+#portfolio h2,
+#contact h2,
+.nav-item a,
+.textBorder p {
+    color: var(--text-colors);
 }
 
 /* Navigation Bar */
@@ -34,7 +42,8 @@ body {
 }
 .navbar {
     background-color: var(--background-color);
-    position: relative;
+    position: fixed;
+    z-index: 1;
 
 }
 .navbar-nav {
@@ -47,10 +56,11 @@ body {
     font-weight: 600;
 }
 
-/* .nav-item a:hover
-.nav-item a:focus {
-color: #f04b4c;
-} */
+.nav-item a:hover,
+.nav-item a:active {
+    color: var(--highlight-colors);
+    border-bottom: 3px solid var(--highlight-colors);
+}
 
 /* Hero Section */
 
@@ -58,7 +68,7 @@ header.masthead {
     width: 100%;
     padding-top: 30px;
     padding-bottom: 0px;
-    background-color: var(--text-colors);
+    background-color: var(--hero-color);
 }
 
 header.masthead .image-container {
@@ -125,6 +135,11 @@ margin-bottom: 20px;
     border: 5px solid var(--highlight-colors);
 }
 
+.myCard:hover {
+    background: radial-gradient(rgba(0, 0, 0, 0.105), var(--highlight-colors));
+    transform: scale(1.05);
+}
+
 .workBorder {
     border-left: 5px solid var(--text-colors);
 }
@@ -148,12 +163,17 @@ margin-bottom: 20px;
 
 .contact-section .social a {
     text-align: center;
-    height: 3rem;
-    width: 3rem;
+    height: 4rem;
+    width: 4rem;
     background: var(--text-colors);
     border-radius: 100%;
-    line-height: 3rem;
+    line-height: 4rem;
     color: var(--background-color);
+}
+
+.contact-section .social a:hover {
+    background: var(--highlight-colors);
+    transform: scale(1.2);
 }
 
 .contactIcons {
@@ -172,4 +192,15 @@ margin-bottom: 20px;
 
 }
 
+/* Footer Section */
+
+.foot-container {
+background-color: var(--text-colors);
+text-align: center;
+}
+
+.foot-container p {
+margin-bottom: 0rem;
+color: var(--background-color);
+}
 
