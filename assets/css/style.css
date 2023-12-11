@@ -31,7 +31,7 @@ body {
 }
 .navbar {
     background-color: var(--background-color);
-    position: fixed;
+    position: relative;
 
 }
 .navbar-nav {
@@ -103,17 +103,52 @@ border-left: 5px solid var(--text-colors);
 
 .myWork .workBorder .pBorder {
 padding: 1%;
-justify-content: space-evenly;
-height: 330px;
+justify-content: space-around;
+height: 315px;
 margin-bottom: 20px;
 }
 
 .myCard {
     margin-bottom: 20px;
+    border: 5px solid var(--highlight-colors);
 }
 
 .workBorder {
     border-left: 5px solid var(--text-colors);
+}
+.cardText {
+    display: table;
+    background-color: var(--highlight-colors);
+    top: 190px;
+    color: var(--text-colors);
+}
+
+/* Contact Section */
+
+.contact-section {
+    padding-top: 1rem;
+}
+
+.contact-section .social {
+    margin-top: 5rem;
+}
+
+.contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: var(--text-colors);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: var(--background-color);
+} 
+
+.contactRow {
+
+}
+
+.contactIcons {
+
 }
 
 
