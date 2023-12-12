@@ -20,9 +20,9 @@ Page made in accordance to the acceptance criteria.
 ## Demo Portfolio Page
 The following images shows the Bootstrap Demo Portfolio Page appearance in different device sizes and showcasing functionailty.
 
-![Demo Portfolio Page: Functionality](./assets/images/Screenshot-iPad-Pro.png)
+![Demo Portfolio Page: Functionality](./assets/images/Screen-recording.gif)
 
-> **Note** This is a video of the Demo Portfolio Page at showing functionality.
+> **Note** This is a video of the deployed demo portfolio page showing functionality.
 
 ![Demo Portfolio Page: iPhone](./assets/images/Screenshot-Phone-14-Pro-Max.png)
 
