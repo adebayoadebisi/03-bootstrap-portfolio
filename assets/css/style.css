@@ -151,6 +151,27 @@ margin-bottom: 20px;
     color: var(--text-colors);
 }
 
+
+/* Skills Section */
+
+.skills-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: var(--text-colors);
+}
+
+.skillsBorder {
+    border-left: 5px solid var(--text-colors); 
+}
+
+h5.card-text {
+    color: var(--text-colors);
+}
+
+h5 i.bi {
+    color: var(--highlight-colors);
+}
+
 /* Contact Section */
 
 .contact-section {
